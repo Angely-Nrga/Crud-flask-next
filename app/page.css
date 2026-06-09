@@ -1,0 +1,107 @@
+body {
+  background: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.titulo {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #111827; 
+  background: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.boton {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  transform: scale(1.03);
+}
+
+.boton-agregar {
+  background: #2563eb;
+  color: white;
+}
+
+.boton-editar {
+  background: #f59e0b;
+  color: white;
+  margin-right: 5px;
+}
+
+.boton-eliminar {
+  background: #dc2626;
+  color: white;
+}
+
+.tabla {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tabla th {
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+}
+
+.tabla td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: black;
+}
+
+.tabla tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.tabla tr:hover {
+  background: #e0f2fe;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+body {
+  background-color: #f4f6f9 !important;
+}
+
